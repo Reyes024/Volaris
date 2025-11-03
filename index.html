@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Volaris | Página educativa</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ====== ENCABEZADO ====== -->
+  <header class="navbar">
+    <div class="logo">volaris<span class="plus">✦</span></div>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">Vuelos</a></li>
+        <li><a href="#">Vuelo+Hotel</a></li>
+        <li><a href="#">Mi reserva</a></li>
+        <li><a href="#">Estatus de vuelo</a></li>
+      </ul>
+    </nav>
+    <div class="auth">
+      <a href="#">Registrarte</a>
+      <button>Iniciar sesión</button>
+    </div>
+  </header>
+
+  <!-- ====== BUSCADOR DE VUELOS ====== -->
+  <section class="buscador">
+    <div class="modo-viaje">
+      <button class="activo">Viaje redondo</button>
+      <button>Viaje sencillo</button>
+    </div>
+
+    <div class="form-vuelo">
+      <div class="campo">
+        <label>Origen</label>
+        <input type="text" value="Cd. México (AICM)" />
+      </div>
+      <div class="campo">
+        <label>Destino</label>
+        <input type="text" placeholder="Selecciona un destino" />
+      </div>
+      <div class="campo">
+        <label>Salida</label>
+        <input type="date" value="2025-11-03" />
+      </div>
+      <div class="campo">
+        <label>Regreso</label>
+        <input type="date" value="2025-11-06" />
+      </div>
+      <div class="campo">
+        <label>Pasajeros</label>
+        <select>
+          <option>1 Adulto</option>
+          <option>2 Adultos</option>
+        </select>
+      </div>
+      <button class="buscar">Buscar vuelos ✈️</button>
+    </div>
+  </section>
+
+  <!-- ====== OFERTAS ====== -->
+  <section class="ofertas">
+    <h2>Mejores vuelos con Volaris</h2>
+    <div class="tarjetas">
+      <div class="tarjeta">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Cancún">
+        <h3>Ciudad de México (MEX) → Cancún (CUN)</h3>
+        <p>Desde <span>$545 MXN</span></p>
+        <button>Reserva ahora</button>
+      </div>
+      <div class="tarjeta">
+        <img src="https://images.unsplash.com/photo-1567608582882-1d8b77eaa39f" alt="Tijuana">
+        <h3>Ciudad de México (MEX) → Tijuana (TIJ)</h3>
+        <p>Desde <span>$971 MXN</span></p>
+        <button>Reserva ahora</button>
+      </div>
+      <div class="tarjeta">
+        <img src="https://images.unsplash.com/photo-1543352634-3b9a3c35d2a9" alt="Guadalajara">
+        <h3>Ciudad de México (MEX) → Guadalajara (GDL)</h3>
+        <p>Desde <span>$350 MXN</span></p>
+        <button>Reserva ahora</button>
+      </div>
+      <div class="tarjeta">
+        <img src="https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62" alt="Monterrey">
+        <h3>Ciudad de México (MEX) → Monterrey (MTY)</h3>
+        <p>Desde <span>$259 MXN</span></p>
+        <button>Reserva ahora</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PAGOS ====== -->
+  <section class="pago">
+    <h2>Pago seguro</h2>
+    <div class="pagos-grid">
+      <div class="metodo">
+        <p>Tarjeta de crédito, débito o pago electrónico</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Amex_logo.svg" alt="Amex">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal">
+      </div>
+      <div class="metodo">
+        <p>Pago en efectivo en tiendas participantes</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Oxxo_Logo.svg" alt="OXXO">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Walmart_logo.svg" alt="Walmart">
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PIE DE PÁGINA ====== -->
+  <footer>
+    <div class="footer-cols">
+      <div>
+        <h4>Nuestras rutas</h4>
+        <ul>
+          <li><a href="#">Vuelos a Cancún</a></li>
+          <li><a href="#">Vuelos a Guadalajara</a></li>
+          <li><a href="#">Vuelos a Monterrey</a></li>
+          <li><a href="#">Vuelos a Tijuana</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Sobre Volaris</h4>
+        <ul>
+          <li><a href="#">Quiénes somos</a></li>
+          <li><a href="#">Sostenibilidad</a></li>
+          <li><a href="#">Trabaja con nosotros</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Descarga nuestra app</h4>
+        <div class="apps">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Download_on_the_App_Store_Badge.svg" alt="App Store">
+        </div>
+      </div>
+    </div>
+    <p class="copy">© 2025 Sitio educativo inspirado en Volaris. Solo para fines de aprendizaje.</p>
+  </footer>
+
+</body>
+</html>

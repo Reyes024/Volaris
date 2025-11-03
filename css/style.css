@@ -1,0 +1,230 @@
+/* ======= ESTILOS GENERALES ======= */
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  background-color: #fafafa;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  color: #222;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ======= NAVBAR ======= */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.plus {
+  color: #b800a6;
+  margin-left: 4px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 600;
+}
+
+.navbar a.active {
+  color: #b800a6;
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.auth button {
+  background-color: transparent;
+  border: 1px solid #b800a6;
+  border-radius: 20px;
+  padding: 6px 14px;
+  color: #b800a6;
+  font-weight: 600;
+}
+
+/* ======= BUSCADOR ======= */
+.buscador {
+  background-color: #f5f5f5;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.modo-viaje {
+  margin-bottom: 20px;
+}
+
+.modo-viaje button {
+  border: none;
+  background-color: #eee;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 0 5px;
+}
+
+.modo-viaje .activo {
+  background-color: #b800a6;
+  color: #fff;
+}
+
+.form-vuelo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.campo label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.campo input,
+.campo select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 180px;
+}
+
+.buscar {
+  background-color: #b800a6;
+  border: none;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+/* ======= TARJETAS DE OFERTAS ======= */
+.ofertas {
+  padding: 50px 10%;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.tarjeta {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.tarjeta h3 {
+  margin: 15px 10px 5px;
+}
+
+.tarjeta p {
+  color: #444;
+}
+
+.tarjeta span {
+  color: #b800a6;
+  font-weight: 700;
+}
+
+.tarjeta button {
+  background-color: #b800a6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+/* ======= SECCIÓN PAGO ======= */
+.pago {
+  background-color: #fff;
+  padding: 50px 10%;
+}
+
+.pagos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.metodo {
+  margin: 20px;
+}
+
+.metodo img {
+  width: 70px;
+  margin: 10px;
+}
+
+/* ======= FOOTER ======= */
+footer {
+  background-color: #111;
+  color: #ccc;
+  padding: 40px 10%;
+}
+
+.footer-cols {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-cols h4 {
+  color: white;
+}
+
+.footer-cols a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.apps img {
+  width: 120px;
+  margin-top: 10px;
+}
+
+.copy {
+  text-align: center;
+  color: #aaa;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
